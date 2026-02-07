@@ -1,4 +1,4 @@
-Transcriptomic Analysis of Alzheimer's Disease (GSE53697)
+## Transcriptomic Analysis of Alzheimer's Disease (GSE53697)
 
 ---Project Overview---
 This project performs a Differential Gene Expression (DGE) analysis on human brain tissue samples (Post-mortem Cerebral Cortex) to identify molecular biomarkers associated with Alzheimer's Disease. Using a cohort of 17 samples (9 Alzheimer's vs. 8 Healthy Controls), I identified a 484-gene signature that characterizes the neurodegenerative state.
@@ -22,3 +22,7 @@ This analysis was conducted using the R Programming Language (R Console) and the
  * Preprocessing: Metadata alignment and Variance Stabilizing Transformation (VST).
  * Statistical Testing: Applied the Wald test for significance via DESeq2.
  * Visualization: Generated Heatmaps for sample-to-sample comparison using Euclidean distance clustering.
+
+---Principal Component Analysis (PCA)---
+The PCA plot shows the variance between samples. The separation along the PC1 axis indicates that the primary source of variation in the dataset is indeed the disease state (AD vs. Control).
+
